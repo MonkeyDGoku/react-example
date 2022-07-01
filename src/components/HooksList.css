@@ -1,0 +1,15 @@
+li {
+  list-style-type: disc;
+}
+
+li > div {
+  cursor: pointer;
+  width: fit-content;
+  background-color: hsla(193, 94%, 86%, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 8px;
+}
+
+li > div:hover {
+  transform: scale(1.03);
+}
