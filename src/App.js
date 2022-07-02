@@ -6,6 +6,8 @@ import UseEffect from './components/UseEffect/UseEffect';
 import UseContext from './components/UseContext/UseContext';
 import UseReducer from './components/UseReducer/UseReducer';
 import UseMemo from './components/UseMemo/UseMemo';
+import UseCallback from './components/UseCallback/UseCallback';
+import UseRef from './components/UseRef/UseRef';
 import { Switch, Routes, Route, Link } from 'react-router-dom';
 import './style.css';
 
@@ -23,6 +25,8 @@ export default function App() {
           <Route path="/useContext" element={<UseContext />}></Route>
           <Route path="/useReducer" element={<UseReducer />}></Route>
           <Route path="/useMemo" element={<UseMemo />}></Route>
+          <Route path="/useCallback" element={<UseCallback />}></Route>
+          <Route path="/useRef" element={<UseRef />}></Route>
         </Routes>
       </div>
     </Router>
