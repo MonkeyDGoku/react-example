@@ -1,71 +1,69 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './HooksList.css';
 export default function HooksList() {
   return (
     <div>
       <ul>
         <li>
-          <div>Basic Hooks</div>
+          <Link to="/">Basic Hooks</Link>
         </li>
         <ul>
           <li>
-            <div>useState</div>
+            <Link to="/">useState</Link>
           </li>
           <li>
-            <div>useEffect</div>
+            <Link to="useEffect">useEffect</Link>
           </li>
           <li>
-            <div>useContext</div>
+            <Link to="useContext">useContext</Link>
           </li>
         </ul>
       </ul>
       <ul>
         <li>
-          <div>Additional Hooks</div>
+          <Link to="/">Additional Hooks</Link>
         </li>
         <ul>
           <li>
-            <div>useReducer</div>
+            <Link to="useReducer">useReducer</Link>
           </li>
           <li>
-            <div>useCallback</div>
+            <Link to="useCallback">useCallback</Link>
           </li>
           <li>
-            <div>useMemo</div>
+            <Link to="useMemo">useMemo</Link>
           </li>
           <li>
-            <div>useRef</div>
+            <Link to="useRef">useRef</Link>
           </li>
           <li>
-            <div>useImperativeHandle</div>
+            <Link to="useImperativeHandle">useImperativeHandle</Link>
           </li>
           <li>
-            <div>useDebugValue</div>
+            <Link to="useDebugValue">useDebugValue</Link>
           </li>
           <li>
-            <div>useReducer</div>
+            <Link to="useDeferredValue">useDeferredValue</Link>
           </li>
           <li>
-            <div>useDeferredValue</div>
+            <Link to="useTransition">useTransition</Link>
           </li>
           <li>
-            <div>useTransition</div>
-          </li>
-          <li>
-            <div>useId</div>
+            <Link to="useId">useId</Link>
           </li>
         </ul>
       </ul>
       <ul>
         <li>
-          <div>Library Hooks</div>
+          <Link to="/">Library Hooks</Link>
         </li>
         <ul>
           <li>
-            <div>useSyncExternalStore</div>
+            <Link to="/">useSyncExternalStore</Link>
           </li>
           <li>
-            <div>useInsertionEffect</div>
+            <Link to="/">useInsertionEffect</Link>
           </li>
         </ul>
       </ul>

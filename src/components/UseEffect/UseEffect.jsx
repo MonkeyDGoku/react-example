@@ -4,6 +4,7 @@ import { UseEffectEx1str } from './UseEffectEx1str.js';
 import CodeBg from '../CodeBg.jsx';
 import UseEffectEx1 from './UseEffectEx1.jsx';
 import UseEffectEx2 from './UseEffectEx2.jsx';
+import { UseEffectEx2str } from './UseEffectEx2str.js';
 
 export default function UseEffect() {
   return (
@@ -17,7 +18,7 @@ export default function UseEffect() {
       <hr />
       <h4>Example - 2</h4>
       <Example>
-        <CodeBg text="end useeefectexample" />
+        <CodeBg text={UseEffectEx2str} />
         <UseEffectEx2 />
       </Example>
     </div>
